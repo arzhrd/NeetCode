@@ -1,4 +1,4 @@
-from collections import Counter
-
-def isAnagram(s, t):
-    return Counter(s) == Counter(t)
+class Solution:
+    def isAnagram(self, s, t):
+        from collections import Counter
+        return Counter(s) == Counter(t)
